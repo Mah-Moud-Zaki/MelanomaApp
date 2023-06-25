@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".nada.Actinin_Details_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Actinintoolbar"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+
+        />
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_margin="10dp"
+            android:id="@+id/cardCauses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            card_view:cardBackgroundColor="@color/colorAccent"
+
+            card_view:cardCornerRadius="30dp"
+            card_view:cardElevation="8dp"
+            card_view:cardUseCompatPadding="true">
+
+
+
+
+
+            <TextView
+
+                android:text="Causes"
+
+                android:textAlignment="center"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:gravity="center"
+                android:padding="10dp"
+
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"/>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_margin="10dp"
+            android:id="@+id/cardSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            card_view:cardBackgroundColor="@color/colorAccent"
+
+            card_view:cardCornerRadius="30dp"
+            card_view:cardElevation="8dp"
+            card_view:cardUseCompatPadding="true">
+
+
+
+
+
+            <TextView
+
+                android:text="Symptoms"
+
+                android:textAlignment="center"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:gravity="center"
+                android:padding="10dp"
+
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"/>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+
+            android:layout_margin="10dp"
+            android:id="@+id/cardTreatment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            card_view:cardBackgroundColor="@color/colorAccent"
+
+            card_view:cardCornerRadius="30dp"
+            card_view:cardElevation="8dp"
+            card_view:cardUseCompatPadding="true">
+
+
+
+
+
+            <TextView
+
+                android:text="Treatment"
+
+                android:textAlignment="center"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:gravity="center"
+                android:padding="10dp"
+
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"/>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+
+            android:layout_margin="10dp"
+            android:id="@+id/cardPrevention"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            card_view:cardBackgroundColor="@color/colorAccent"
+
+            card_view:cardCornerRadius="30dp"
+            card_view:cardElevation="8dp"
+            card_view:cardUseCompatPadding="true">
+
+
+
+
+
+            <TextView
+
+                android:text="Prevention"
+
+                android:textAlignment="center"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:gravity="center"
+                android:padding="10dp"
+
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"/>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.final_project">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,10 +13,151 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Final_project"
         tools:targetApi="31">
+        <activity
+            android:name=".ModelAi.ModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Vascular_Prevention_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Vascular_Overview_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Vascular_Tretment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Dermato_diagnosis_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Dermato_Treatment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Dermato_Symptoms_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Dermato_casuses_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Begin_Prevention_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Begin_Treatment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Begin_Symptoms_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Begin_causes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Basal_Prevention_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Basal_Treatment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Basal_Symptoms_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Basal_causes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Actinin_prevention_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Actinin_treatment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Actinin_Symptoms_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Actinin_causes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Nevus_prevention_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Nevus_treatment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Nevus_Symptoms_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Nevus_Casues_ctivity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Melanoma_Prevenrtion_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Melanoma_Treatment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Melanoma_Symptoms_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Dermato_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Actinin_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Basal_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Vascular_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Begin_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.Nevus_details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.MelanomaCausesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nada.DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChatsDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ImageViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChatActivity"
+            android:exported="false"
+            android:parentActivityName=".Activity.ChatsDoctorActivity"/>
+        <activity
+            android:name=".Activity.DoctorDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfileEditActivityForPatient"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfilActivityForPatient"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfileEditActivityForDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfilActivityForDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SearchForDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceActivity.ForgetPasswordActivity"
+            android:exported="false" />
         <activity
             android:name=".WelcomeScreen.OnBoarding"
             android:exported="false" />
@@ -23,8 +166,7 @@
             android:exported="false" />
         <activity
             android:name=".ServiceActivity.PatientRegister"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".ServiceActivity.ChoseActivity"
             android:exported="false" />

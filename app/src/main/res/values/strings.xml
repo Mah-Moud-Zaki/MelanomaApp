@@ -1,4 +1,939 @@
 <resources>
-    <string name="app_name">final_project</string>
+    <string name="app_name">Melanoma App</string>
     <string name="new_user_signup">New User?<b>SignUp</b></string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="share">Share</string>
+    <string name="Aboutapp">About App</string>
+    <string name="rateus">RateUs</string>
+    <string name="Darkmode">Dark Mode</string>
+    <string name="lang">Language</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="navigation_Drawer_open">Open navigation drawer</string>
+    <string name="navigation_Drawer_close">Close navigation drawer</string>
+    <string name="Check">Check</string>
+    <string name="doctors">Doctors</string>
+    <string name="guide">Guide</string>
+    <string name="chat">Chat</string>
+    <string name="type">type</string>
+    <string name="Knowmore">Know more</string>
+    <string name="melanoma">Melanoma</string>
+    <string name="nevus">Nevus</string>
+    <string name="BeginKeratosis">Begin Keratosis</string>
+    <string name="VascularLesion">Vascular Lesion</string>
+    <string name="BasalCellCarcinoma">Basal Cell Carcinoma</string>
+    <string name="ActininKeratosis">Actinin Keratosis</string>
+    <string name="Dermatofibroma">Dermatofibroma</string>
+    <string name="Settings">Settings</string>
+    <string name="causes">Causes</string>
+    <string name="melano_causes_1">
+              Melanoma occurs when something goes wrong in the melanin producing \n cells (melanocytes) that give color to your skin.\n
+              Normally, skin cells develop in a controlled and  orderly way — healthy new cells push \n older cells toward your skins surface,
+        where they die and even tually fall off.\n But when some cells develop DNA damage, new cells may begin to grow out of control and \n can eventually form a mass ofcancerous cells.
+               </string>
+
+    <string name="melano_causes_2">
+  UV light does not  cause  all melanomas, especially those that occur in  \n places onyour  body that do not receive exposure to sunlight.\n This indicates that other factors may contribute to your risk of melanoma.\n
+        Factors that may increase your risk of melanoma include: \n
+               </string>
+    <string name="melano_causes_3">
+        * Fair skin:  Having less pigment (melanin) in your skin means you have less protection from damaging UV radiation. \n
+        If you have blond or red hair, light-colored eyes, and freckle or sunburn easily, you\'re more likely to develop melanoma \n
+        than is someone with a darker complexion.\n
+        But melanoma can develop in people with darker complexions, including Hispanic people and black people.
+               </string>
+    <string name="melano_causes_4">
+        * A history of sunburn:  One or more severe, blistering sunburns can  \n
+        increase your risk of melanoma.
+               </string>
+    <string name="melano_causes_5">
+       * Excessive ultraviolet (UV) light exposure:  Exposure to UV radiation,
+        \n which comes from the sun and from tanning lights and beds, \n
+        can increase the risk of skin cancer, including melanoma.
+
+               </string>
+    <string name="melano_causes_6">
+        * Living closer to the equator or at a higher elevation:  People living closer to the earth\'s equator,\n
+        where the sun\'s rays are more direct,experience higher amounts of UV
+        radiation than do those living farther north or south. In addition,
+        if you live at a high elevation, you\'re exposed to more UV radiation.
+               </string>
+
+    <string name="melano_causes_7">
+       * Having many moles or unusual moles:  Having more than 50 ordinary moles on your body indicates
+        an increased risk of melanoma.\n Also, having an unusual type of mole
+        increases the risk of melanoma.
+        \n Known medicallyas dysplastic nevi, these tend to be larger than normal moles and
+        have irregular borders and a mixture of colors.
+               </string>
+    <string name="melano_causes_8">
+       * A family history of melanoma:  If a close relative — such as a parent,
+        child or sibling — has had melanoma, \n
+        you have a greater chance of developing a melanoma, too.
+               </string>
+    <string name="melano_causes_9">
+      * Weakened immune system:  People with weakened immune systemshave an increased risk of melanoma
+        and other skin cancers.\n
+        Your immune system may be impaired if you take medicine to suppress the immune system,
+        such as after an organ transplant, or if you have a disease that impairs the
+        immune system, such as AIDS.
+
+               </string>
+    <string name="melano_symptoms_1">
+        Melanomas can develop anywhere on your body.
+        They most often develop in areas that have had exposure to the sun,
+        such as your back, legs,arms and face.
+
+               </string>
+
+    <string name="melano_symptoms_2">
+        Melanomas can also occur in areas that don\'t receive much sun exposure,
+        such as the soles of your feet, palms of your hands and finger nail beds.
+        These hidden melanomas are more common in people with darker skin.
+
+               </string>
+
+    <string name="melano_symptoms_3">
+        The first melanoma signs and symptoms often are: \n
+        * A change in an existing mole.\n
+        * The development of a new pigmented or unusual-looking growth on your skin. \n
+         Melanoma doesn\'t always begin as a mole. It can also occur on otherwise normal-appearing skin.
+
+               </string>
+
+    <string name="melano_symptoms_4">
+        Normal moles are generally a uniform color — such as tan,
+        brown or black —with a distinct border separating the mole from your surrounding skin. \n
+        They are oval or round and usually smaller than 1/4 inch
+        (about 6 millimeters) in diameter— the size of a pencil eraser.
+               </string>
+
+    <string name="melano_symptoms_5">
+        Most moles begin appearing in childhood and new
+        moles may form until about age 40. By the time they are adults,
+        most people have between 10 and 40moles. Moles may change in
+        appearance over time and some may even disappear with age.
+               </string>
+
+    <string name="melano_symptoms_6">
+        To help you identify characteristics of unusual moles that may indicate melanomas or
+        other skin cancers, think of the letters ABCDE:
+
+               </string>
+    <string name="melano_symptoms_7">
+     * A is for asymmetrical shape: Look for moles with irregular shapes,
+        such as two very different-looking halves.\n
+     * B is for irregular border: Look for moles with irregular, notched
+        or scalloped borders — characteristics of melanomas.
+               </string>
+
+
+    <string name="melano_symptoms_8">
+     * C is for changes in color: Look for growths that have many colors or an
+        uneven distribution of color.\n
+     * D is for diameter: Look for new growth in a mole larger than 1/4 inch(about 6 millimeters).
+               </string>
+
+    <string name="melano_symptoms_9">
+     * E is for evolving: Look for changes over time, such as a mole that grows in
+        size or that changes color or shape. Moles may also evolve to develop
+        new signs and symptoms, such as new itchiness or bleeding.
+
+
+               </string>
+    <string name="melano_treatment_staging_1"> Staging  </string>
+
+    <string name="melano_treatment_1">
+
+        Test results will show whether you have melanoma and if it has spread
+        to other parts of the body.The melanoma will be given a stage of 0-4,
+        usually written in Roman numerals. The most important feature of a melanoma in
+        predicting its outcome is its thickness.\n \n
+            * stage 0 : is less than 0.1mm.\n
+            * stage 1 : less than 2mm.\n
+            * stage 2 : greater than 2mm.\n
+            * stage 3  : spread to lymph nodes and stage IV spread to distant skin and/or other parts of the body.\n\n
+        The presence of ulceration also predicts a poor outcome. If distant spread is suspected, CT scans
+        of the chest, abdomen and pelvis are performed. The blood test LDH can sometimes
+        be useful to assess metastatic disease.
+    </string>
+    <string name="melano_treatment_early_staging">  Early-stage melanoma  </string>
+    <string name="melano_treatment_2">
+
+      * Surgery (wide local excision) can be curative for thin melanomas and
+        requires that the melanoma be removed as well as more normal-looking skin around
+        the melanoma (usually between 5mm and10mm).\n\n
+      * Many people with early melanoma don’t need to have lymph nodes
+        removed. However, in somecases, you may have a sentinel lymph node biopsy
+        which removes the first lymph node themelanoma may have spread to.\n\n
+
+      * The removal of the lymph nodes can cause side effects such as swelling in your neck,
+        armpit orgroin. This is called  lymphoedema.\n\n
+
+      * If there is a risk that the melanoma could come back,
+        you may be offered additional treatments.These can
+        include immunotherapy and targeted therapy.
+
+     </string>
+
+    <string name="melano_treatment_advanced">  Advanced melanoma  </string>
+
+    <string name="melano_treatment_3">
+
+        Treatment for advanced melanoma, where the cancer has spread to lymph nodes,
+        internal organs orbones,
+        may include surgery, radiation therapy targeted therapy or immunotherapy.\n\n
+
+       * Surgery : may be used to treat metastatic melanoma that involves other parts of the skin.
+        Surgery may also still be possible if the melanoma has spread to
+        other organs but will depend on the part of the body that is affected.\n\n
+
+      * Targeted therapy : drugs attack specific genetic changes (mutations) that allow melanomas
+        to growand spread while minimising harm to healthy cells.
+        It is most commonly used for melanomas thathave spread to other organs or
+        if it has come back after treatment.\n\n
+      * Immunotherapy : uses drugs to stimulate the body\'s immune system in order to recognise
+        and fight melanoma cancer cells. Ipilimumab, nivolumab and pembrolizumab
+        are three immun other apydrugs approved for treatment of advanced melanoma.
+
+
+
+
+     </string>
+
+    <string name="melano_prevention_1">
+
+    * Avoiding excessive exposure to UV radiation reduces the risk of melanoma.\n
+    * Avoiding excessive exposure to ultraviolet radiation can reduce the risk of skin cancer.
+
+    </string>
+
+    <string name="melano_prevention_2">
+        This can be achieved by:\n\n
+        * avoiding sunburn.\n\n
+        * wearing clothes that protect against the sun.\n\n
+        * using sunscreen with a minimum sun protection factor (SPF) of 15,
+        but preferably SPF 20-30, with 4- or 5-star UVA protection.
+
+
+    </string>
+
+    <string name="melano_prevention_3">
+
+        * liberally applying sunscreen about half an hour before going out,
+        and applying it again after half an hour.\n\n
+        * reapplying every 2 hours and after swimming to maintain adequate protection.\n\n
+        * avoiding the highest sun intensity between 11 am and 3 pm by finding shade.\n\n
+        * protecting children by keeping them in the shade, with clothing,
+        and by applying SPF 50+ sunscreen keeping infants out of direct sunlight.
+
+    </string>
+
+    <string name="melano_prevention_4">
+
+       * Wearing sunscreen is not a reason to spend longer in the sun. Sun exposure should still be limited,
+        where possible. People who work outdoors should take precautions to minimize exposure.\n\n
+       * Doctors recommend avoiding tanning booths, lamps, and sunbeds.
+
+    </string>
+    <string name="melano_prevention_5_1">   What about vitamin D ?  </string>
+    <string name="melano_prevention_5">
+
+    * Despite warnings against overexposure to the sun, it remains important to get
+        a little sun exposure as this enables our bodies to produce vitamin D.\n\n
+
+    * Vitamin D is an important nutrient for the prevention of diseases such as rickets
+        and osteomalacia. As such, sensible sun exposure is advised.\n\n
+
+    * The time it takes to produce sufficient vitamin D is less than the time
+        it takes to get sunburnt. This means we can enjoy the sun safely and maintain
+        optimal vitamin D levels without dramatically increasing the risk of skin cancer.
+
+
+    </string>
+
+    <string name="actinin_causes_1">
+    There are several factors which contribute to the risk of AK developing.\n\n
+        * fair skin characterized by freckles, the tendency to burn easily and lack of the ability to tan.\n
+        * blue or light coloured eyes, and blond or red hair.\n
+        * increasing age.\n
+        * immunosuppression (e.g. after organ transplantation).\n
+        * genetic conditions (albinism, xeroderma pigmentosum).\n
+
+    </string>
+
+
+    <string name="actinin_causes_2">
+        Cumulative lifetime sun-exposure is the most important
+        contributing factor to the development of actinic keratosis
+        and eventually Squamous Cell Carcinoma skin cancers. UV radiation may
+        cause mutations in cellular DNA that, when un-repaired, may lead to
+        uncontrolled cell growth and proliferation and eventually tumour formation.
+        UV radiation also causes immunosuppression which impairs the cells’ capacity to
+        repair the damaged DNA. This allows for the DNA mutations to persist and subsequently
+        tumour rejection may not occur.
+
+    </string>
+
+
+    <string name="actinin_causes_3">
+        DNA is the main chromophore for UVB radiation. When photons of UVB
+        light are absorbed by the DNA, damage is caused to the DNA helix,
+        often resulting in C-T single mutations or CC-TT tandem mutations
+        (cyclobutane pyrimidine dimers - CPD). These are commonly called ‘signature mutations’ and
+        are indicative of photodamage due to UVB light. The photo damage caused by UVA light is
+        less understood,
+        but is likely to play a role in the transformation from normal to abnormal cells.
+
+    </string>
+
+
+    <string name="actinin_causes_4">
+        These ‘signature’ mutations are nearly always found in the p53
+        tumour suppressor gene (p53 is responsible for ensuring all DNA
+        is repaired before allowing the cell to recommence cell division) which
+        is found in the early developmental stages of actinic keratosis and SCC.
+
+    </string>
+
+    <string name="actinin_causes_5">
+        Multiple UV radiation induced-insults to the skin result in a pathway that begins
+        with photo damaged skin, progresses to actinic keratosis and eventually,
+        if left unchecked, may lead to an invasive SCC. Actinic keratoses are expanded clones
+        of genetically abnormal cells that have escaped the normal DNA repair mechanisms
+        and apoptosis (programmed cell death) to proliferate into what can be seen as an in-situ
+        cancer of the skin.
+    </string>
+    <string name="actinin_symptoms_1">
+        Actinic keratoses appear as discrete, dry, rough or scaly lesions.
+        They can be pink, red, tan, dark, light, or the same color as one\’s skin.
+        They are usually 2-6mm in diameter but may be many centimeters.
+    </string>
+
+
+    <string name="actinin_symptoms_2">
+        AKs are commonly found on a background of photodamaged (sun damaged) skin with
+        dyspigmentation (loss of pigmentation), ephelides (freckles), telangiectases
+        (dilated superficial blood vessels), and solar elastosis (decreased skin elasticity as
+        a result of photodamage). 80% of AKs occur on sun-exposed sites and are particularly common
+        on the back of hands, arms and scalp.
+    </string>
+    <string name="actinin_symptoms_3">
+        Itching, burning, stinging, bleeding and crusting are frequently
+        associated with actinic keratosis. Increasing thickness, pain and
+        ulceration are the main signs that an actinic keratosis may be transforming
+        to a SCC and in this case a biopsy should be taken at the earliest time possible.
+    </string>
+
+    <string name="actinin_treatment_1">
+        An actinic keratosis sometimes disappears on its own but might return
+        after more sun exposure. It\'s hard to tell which actinic keratoses will develop
+        into skin cancer, so they\'re usually removed as a precaution. \n\n
+        Many methods are used to remove actinic keratosis, including:
+    </string>
+    <string name="actinin_treatment_2">
+       * Freezing (cryotherapy): Actinic keratoses can be removed by freezing them with liquid nitrogen.
+        Your health care provider applies the substance to the affected skin, which causes blistering
+        or peeling. As your skin heals,the damaged cells slough off, allowing new skin to appear.
+        Cryotherapy is the most common treatment. It takes only a few
+        minutes and can be done in your health care provider\'s office.
+        Side effects may include blisters,scarring, changes to skin texture,
+        infection and changes in skin color of the affected area.
+    </string>
+
+    <string name="actinin_treatment_3">
+       * Scraping (curettage): In this procedure, your health care provider uses adevice
+        called a curet to scrape off damaged cells. Scraping may be followed by electro surgery,
+        in which a pencil-shaped instrument is used to cut and destroy the affected tissue with
+        an electric current. This procedure requires local anesthesia.
+        Side effects may include infection, scarring and changes in skin color of the affected area.
+    </string>
+
+    <string name="actinin_treatment_4">
+       * Laser therapy: This technique is increasingly used to treat actinic keratosis.
+        Your health care provider uses an ablative laser device to destroy the patch,
+        allowing new skin to appear. Side effects may include scarring and discoloration of
+        the affected skin.
+    </string>
+    <string name="actinin_treatment_5">
+       * Photodynamic therapy: Your health care provider might apply a light-sensitive chemical
+        solution to the affected skin and then expose it to aspecial light that will
+        destroy the actinic keratosis. Side effects may include inflamed skin, swelling
+        and a burning sensation during therapy.
+    </string>
+
+    <string name="actinin_prevention_1">
+   The best way to prevent actinic keratosis is to avoid prolonged
+        UV exposure. You canprotect your skin by: \n\n
+        * Applying sunscreen every day, even in cloudy weather or during winter,
+        and re-applyingoften — at least every two hours. Use a broad-spectrum sunscreen with
+        at least 30 sunprotection factor (SPF) that blocks both UVA and UVB light.
+    </string>
+
+    <string name="actinin_prevention_2">
+    * Avoiding sun exposure when UV light is most intense, between 10 a.m. and 2 p.m.\n
+    * Avoiding tanning salons, sun lamps and tanning beds.
+    * Wearing sun-safe clothing, such as long-sleeved shirts, long pants and hats.
+    </string>
+
+    <string name="basal_causes_1">
+    Basal cell carcinoma occurs when one of theskin\'s basal cells develops a mutation in its DNA.\n
+    Basal cells are found at the bottom of theepidermis — the outermost layer of skin. Basal cells
+        produce new skin cells. As new skin cells areproduced, they push older cells toward the skin\'s
+        surface, where the old cells die and are sloughed off.
+    </string>
+    <string name="basal_causes_2">
+        The process of creating new skin cells is
+        controlled by a basal cell\'s DNA. The DNA
+        contains the instructions that tell a cell what to do. The mutation tells
+        the basalcell to multiply rapidly and continue growing when it would normally die
+        .Eventually the accumulating abnormal cells may form a cancerous tumor — the lesion that
+        appears on the skin.
+    </string>
+    <string name="basal_causes_3">
+        Much of the damage to DNA in basal cells is thought to result from ultraviolet(UV) radiation
+        found in sunlight and in commercial tanning lamps and tanning beds. But sun exposure doesn\'t
+        explain skin cancers that develop on skin not ordinarily exposed to sunlight.
+        Other factors can contribute to the risk and development of basal cell carcinoma, and
+        the exact cause may in some cases not be clear.
+    </string>
+    <string name="basal_causes_4">
+        Factors that increase your risk of basal cell carcinoma include:\n\n
+             * Chronic sun exposure: A lot of time spent in the sun — or in commercial
+        tanning beds — increases the risk of basal cell carcinoma. The threat is greater if you live
+        in a sunny or high-altitude location, both of which exposeyou to more UV
+        radiation. Severe sunburns also increase your risk.
+    </string>
+
+    <string name="basal_causes_5">
+      * Radiation therapy: Radiation therapy to treat acne or other skin conditions may increase
+        the risk of basal cell carcinoma at previous treatment sites onthe skin.\n\n
+      * Fair skin: The risk of basal cell carcinoma is higher among people who freckle or
+        burn easily or who have very light skin, red or blond hair, or light-colored eyes.
+    </string>
+    <string name="basal_causes_6">
+      * Increasing age: Because basal cell carcinoma often takes decades to develop, the majority of
+        basal cell carcinomas occur in older adults. But it can also affect younger adults and is
+        becoming more common in people in their 20s and 30s.\n\n
+      * A personal or family history of skin cancer: If you\'ve had basal cell carcinoma one or more
+        times, you have a good chance of developing it again. If you have a family history of skin
+        cancer, you may have an increased risk of developing basal cell carcinoma.
+    </string>
+
+    <string name="basal_causes_7">
+      * Immune-suppressing drugs: Taking medications that suppress your immune system,
+        such as anti-rejection drugs used after transplant surgery,significantly increases
+        your risk of skin cancer.\n\n
+      * Inherited syndromes that cause skin cancer: Certain rare genetic diseases can increase the
+        risk of basal cell carcinoma, including nevoid basal cell carcinoma syndrome (Gorlin-Goltz syndrome)
+        and xeroderma pigmentosum.
+    </string>
+    <string name="basal_causes_8">
+      * Exposure to arsenic: Arsenic, a toxic metal that\'s found widely in the environment,
+        increases the risk of basal cell carcinoma and other cancers.Everyone has some arsenic
+        exposure because it occurs naturally. But some people may have higher exposure if they drink
+        contaminated well water or have a job that involves producing or using arsenic.
+
+    </string>
+
+    <string name="basal_symptoms_1">
+        Basal cell carcinoma usually develops on sun-exposed parts of your body,especially
+        your head and neck. Less often, basal cell carcinoma can develop onparts of your body
+        usually protected from the sun, such as the genitals.
+
+    </string>
+    <string name="basal_symptoms_2">
+        Basal cell carcinoma appears as a change in the skin, such as a growth or asore that won\'t heal.
+        These changes in the skin (lesions) usually have one of the following characteristics:
+    </string>
+    <string name="basal_symptoms_3">
+        * A shiny, skin-colored bump: that\'s translucent, meaning you can see a bit through the surface.
+        The bump can look pearly white or pink on white skin.On brown and Black skin,
+        the bump often looks brown or glossy black. Tiny blood vessels might be visible, though they
+        may be difficult to see on brown and Black skin. The bump may bleed and scab over.
+    </string>
+    <string name="basal_symptoms_4">
+        * A brown, black or blue lesion: or a lesion with dark spots — with a slightly raised,
+        translucent border.
+        * A flat, scaly patch: with a raised edge. Over time, these patches can grow quite large.
+        * A white, waxy, scar-like lesion: without a clearly defined border.
+    </string>
+
+    <string name="basal_prevenation_1">
+        To reduce your risk of basal cell carcinoma you can:\n\n
+        * Avoid the sun during the middle of the day.\n
+        * In many places, the sun\'s rays are strongest between about 10 a.m. and 4 p.m.
+        Schedule outdoor activities for other times of the day, even during winter or when the
+        sky is cloudy.\n
+        * Wear sunscreen year-round: Use a broad-spectrum sunscreen with an SPF of at least 30, even on
+        cloudy days. Apply sunscreen generously, and reapply every two hours — or more often if you\'re
+        swimming or perspiring.
+    </string>
+    <string name="basal_prevenation_2">
+      * Wear protective clothing: Cover your skin with dark, tightly woven clothing that covers
+        your arms and legs, and a broad-brimmed hat, which provides more protection than does a
+        baseball cap or visor.\n
+      * Some companies also sell protective clothing: A dermatologist can recommend an appropriate brand.\n
+      *  Don\'t forget sunglasses: Look for those that block both types of UV radiation —UVA and UVB rays.\n
+      * Avoid tanning beds: Tanning beds emit UV rays and can increase your risk of skin cancer.
+    </string>
+    <string name="basal_prevenation_3">
+      * Check your skin regularly and report changes to your doctor: Examine your skin often for new skin
+        growths or changes in existing moles, freckles,bumps and birthmarks. With the help of mirrors,
+        check your face, neck,ears and scalp.\n\n
+        Examine your chest and trunk and the tops and undersides of your arms and hands.
+        Examine both the front and the back of your legs and your feet,including the soles and
+        the spaces between your toes. Also check your genital area and between your buttocks.
+    </string>
+
+    <string name="basal_treament_1">
+      The goal of treatment for basal cell carcinoma is to remove the cancer completely.
+        Which treatment is best for you depends on the type, location and size of your cancer,
+        as well as your preferences and ability to do follow-up visits.Treatment selection can
+        also depend on whether this is a first-time or are curring basal cell carcinoma.
+    </string>
+
+    <string name="basal_treament_2_1">
+      Surgery
+    </string>
+
+    <string name="basal_treament_2_2">
+    Basal cell carcinoma is most often treated with surgery to remove all of the cancer and some of the healthy tissue around it.\n\n
+    Options might include: \n\n
+        * Surgical excision: In this procedure, your doctor cuts out the cancer ouslesion and a surrounding
+        margin of healthy skin. The margin is examinedunder a microscope to be sure there are no
+        cancer cells. \n
+Excision might be recommended for basal cell carcinomas that are lesslikely to recur, such as those that form on the chest, back, hands and feet.\n\n
+        * Mohs surgery: During Mohs surgery, your doctor removes the cancer layer by layer, examining each
+        layer under the microscope until no abnormal cells remain. This allows the surgeon to be
+        certain the entire growth is removed and avoid taking an excessive amount of surrounding
+        healthy skin.\n
+Mohs surgery might be recommended if your basal cell carcinoma has ahigher risk of recurring,
+        such as if it\'s larger, extends deeper in the skin oris located on your face.
+
+
+    </string>
+    <string name="basal_treament_3">
+     Other treatments
+    </string>
+    <string name="basal_treament_3_1">
+     Sometimes other treatments might be recommended in certain situations, such as if you\'re
+        unable to undergo surgery or if you don\'t want to have surgery.\n\n
+Other treatments include:\n\n
+       * Curettage and electro dessication (C and E): C and E treatment involves
+        removing the surface of the skin cancer with a scraping instrument (curet)and
+        then searing the base of the cancer with an electric needle.
+        C and E might be an option for treating small basal cell carcinomas that areless likely to
+        recur, such as those that form on the back, chest, hands and feet.
+
+
+
+    </string>
+
+    <string name="basal_treament_3_2">
+     * Radiation therapy : Radiation therapy uses high-energy beams, such as X-rays and protons,
+        to kill cancer cells.\n
+Radiation therapy is sometimes used after surgery when there is an increased risk that the
+        cancer will return. It might also be used whensurgery isn\'t an option.
+    * Freezing: This treatment involves freezing cancer cells with liquid nitrogen(cryosurgery).
+        It may be an option for treating superficial skin lesions.Freezing might be done after
+        using a scraping instrument (curet) to remove the surface of the skin cancer. \n
+Cryosurgery might be considered for treating small and thin basal cell carcinomas when surgery isn\'t
+        an option.
+
+    </string>
+
+    <string name="basal_treament_3_3">
+    * Topical treatments : Prescription creams or ointments might be considered for treating
+        small and thin basal cell carcinomas when surgery isn\'t an option.\n\n
+    * Photodynamic therapy : Photodynamic therapy combines photosensitizing drugs and light to
+        treat superficial skin cancers. During photodynamic therapy, a liquid drug that makes
+        the cancer cells sensitive to light is applied to the skin. Later, a light that destroys
+        the skin cancer cells is shined on the area.\n\n
+Photodynamic therapy might be considered when surgery isn\'t an option.
+
+    </string>
+    <string name="nevus_causes_1">
+        Although the exact reason for the local proliferation of naevus cells is unknown,
+        it is clear that the number of melanocytic naevi a person has depends
+        on genetic factors, on sun exposure, and on immune status.
+    </string>
+    <string name="nevus_causes_2">
+        * People with many melanocytic naevi tend to have family members that also have many
+        similar lesions.\n\n
+        * Somatic mutations in RAS genes are associated with congenital melanocytic naevi.
+    </string>
+
+    <string name="nevus_causes_3">
+        * New melanocytic naevi may erupt following the use of BRAF inhibitor drugs (vemurafenib,
+        dabrafenib).\n\n
+        * People living in Australia and New Zealand have many more naevi than their
+        relatives residing in Northern Europe.\n\n
+        * Immunosuppressive treatment leads to an increase in the numbers of naevi.
+    </string>
+    <string name="nevus_symptoms_1">
+        According to the American Academy of Dermatology, the most common types of moles are
+        skin tags, raised moles and flat moles. \n Benign moles are usually brown, tan, pink or
+        black (especially on dark-colored skin).
+    </string>
+
+    <string name="nevus_symptoms_2">
+        They are circular or oval and are usually small (commonly between 1–3 mm),
+        though some can be larger than the size of a typical pencil eraser
+        (>5 mm). Some moles produce dark, coarse hair.\n
+        Common mole hair removal procedures include plucking, cosmetic waxing, electrolysis,
+        threading and cauterization.
+    </string>
+
+
+    <string name="nevus_symptoms_3"> Aging    </string>
+
+    <string name="nevus_symptoms_3_1">
+
+        Moles tend to appear during early childhood and during the first 30 years of life. \n
+        They may change slowly, becoming raised, changing color or gradually fading.\n
+        Most people have between 30 and 40 moles, but some have as many as 600.\n
+        The number of moles a person has was found to have a correlation with telomere length.\n
+        However, the relation between telomeres and aging remains uncertain.
+
+
+    </string>
+
+
+    <string name="nevus_symptoms_4">
+
+        There are usually no symptoms with  melanocytic nevi. Sometimes the larger one smay itch.\n
+        If pain, severe or persistent itching, bleeding, or crusting develop, see your child’s doctor.
+
+    </string>
+    <string name="nevus_treatment_1">
+        * The majority of melanocytic nevi do not require treatment. Nevi that are benign
+        but bothersome to the patient because of appearance or irritation can be removed.\n
+        Moles are removed by the shave technique or suture surgery.\n
+        * Atypical melanocytic nevi are biopsied when the clinician is concerned about the
+        possibility of cutaneous melanoma.
+    </string>
+    <string name="nevus_treatment_2">
+         Most melanocytic naevi are harmless and can be safely left alone. They may be removed in
+        the following circumstances: \n\n
+        * To exclude cancer.\n
+        * If a naevus is a nuisance: perhaps irritated by clothing, comb or razor.\n
+        * Cosmetic reasons: the mole is unsightly.
+    </string>
+    <string name="nevus_treatment_3">
+         Surgical techniques include:\n\n
+        * Excision biopsy of a fl at or suspicious melanocytic naevus.\n
+        * Shave biopsy of a protruding melanocytic naevus.\n
+        * Electrosurgical destruction.\n
+        * Laser to lessen pigment or remove coarse hair.
+    </string>
+
+    <string name="nevus_prevention_1">
+    The number of melanocytic naevi can be minimised by strict protection from the sun, starting from birth.\n
+        Sunscreen alone is not suffi cient to prevent new naevi from appearing.\n
+    At any age, sun protection is important to reduce skin ageing and the risk of skin cancer.
+    </string>
+
+    <string name="nevus_prevention_2">
+    * In New Zealand, the SunSmart Sun Protection Alert advises when protection is required.\n
+    * Cover up: Wear a hat, long sleeves and a long skirt or trousers.
+        Choose fabrics designed for the sun (UPF 40+) when outdoors.\n
+    * Apply sunscreen to areas you can\'t cover. Choose broad-spectrum high protection (SPF 50+)
+        sunscreens, applied frequently to exposed areas.
+    </string>
+    <string name="Begin_causes_1">
+    Experts don\’t know what causes a seborrheic (begin) keratosis to develop. They aren\‘t
+        bacterial, viral, or contagious.\n\n
+The following risk factors may make you more likely to develop a seborrheic (begin) keratosis:\n\n
+    * Older age: The condition often develops in those who are in their 30s or 40s
+        , and risk increases with age. It isn\‘t common in peopleyounger than 20 years old.\n
+    * Having family members with seborrheic keratosis (begin): This skin condition appears to run in families,
+        and it can often be inherited.Risk increases with the number of affected biological relatives.
+    </string>
+    <string name="Begin_causes_2">
+        * Pregnancy or hormone therapy: Seborrheic keratoses (begin) may developduring pregnancy.
+        These growths may also develop while a personunder goesestrogen replacement therapy.\n\n
+        * Frequent sun exposure: Researchers in South Korea found that one subtype of seborrheic
+        keratosis, the adenoid type, occurred more often in sun-exposed skin than protected skin.
+        However, seborrheic keratoses can also appear on skin that\’s usually covered up outdoors.
+    </string>
+    <string name="Begin_causes_3">
+        * Having lighter skin: Seborrheic keratoses (begin) are generally more common in people with light skin,
+        although people with darker skin can develop them too.
+
+
+    </string>
+    <string name="Begin_symptoms_1">
+
+    A seborrheic keratosis (begin) grows gradually. Signs and symptoms might include:\n\n
+        * A round or oval-shaped waxy or rough bump, typically on the face, chest, a shoulder or
+        the back.\n
+        * A flat growth or a slightly raised bump with a scaly surface, with a characteristic
+        "pasted on" look.\n
+        * Varied size, from very small to more than 1 inch (2.5 centimeters) across.
+    </string>
+    <string name="Begin_symptoms_2">
+
+     * Varied number, ranging from a single growth to multiple growths.\n
+     * Very small growths clustered around the eyes or elsewhere on the face,sometimes called
+        flesh moles or dermatosis papulosa nigra, common on Black or brown skin.\n
+     * Varied in color, ranging from light tan to brown or black.\n
+     * Itchiness.
+    </string>
+    <string name="Begin_treatment_1">
+        In many cases, a seborrheic keratosis (begin) doesn\’t need treatment.
+        However, a healthcare professional may decide to remove any growths that have a suspicious
+        appearance or cause physical or emotional discomfort. A doctor, dermatologist, or — in some
+        cases — a physician assistant will perform your procedure.
+
+    </string>
+    <string name="Begin_treatment_2">
+Treatment and removal methods for a seborrheic keratosis (begin) include the following:\n\n
+    * Cryosurgery: Cryosurgery uses liquid nitrogen to freeze off the growth.\n
+    *Electrosurgery: In electrosurgery , a healthcare professional uses anelectrical
+        current to scrape off the growth. The area is numbed before the procedure.
+
+    </string>
+    <string name="Begin_treatment_3">
+    * Curettage: In curettage, a healthcare professional scrapes off the growth with a curette,
+        a scoop-like surgical instrument. Curettage is sometimes combined with electro surgery.\n
+    * Shave excision: Shave excision is similar to curettage.
+        A health care professional may perform it if they want to send a sample of the
+        growth to a lab for analysis.\n
+    * Ablation: This procedure uses a special laser to vaporize the growth.
+
+    </string>
+    <string name="Begin_treatment_4">
+    * Hydrogen peroxide solution: The Food and Drug Administration(FDA) has approved a 40 percent
+        hydrogen peroxide solution (Eskata) to destroy seborrheic keratosis cells. It\’s only
+        available by prescription. However, this method often causes skin irritation.\n
+
+    * Nitric acid-zinc solution: The topical solution Nitrizinc Complex contains nitric acids, zinc,
+        copper salts, and organic acids. A small 2019 study found this method to be safe
+        and effective at shrinkingor completely eliminating most lesions within a 6-month period.
+
+    </string>
+    <string name="Begin_treatment_5">
+     * To prevent bleeding,inflammation , or infection, it\’s important to not try to remove a
+        seborrheic keratosis yourself by picking or scratching at it.\n\n
+     * After the seborrheic keratosis is professionally removed, your skin may belighter at the site
+        of removal. The difference in skin color often becomesless noticeable over time.\n\n
+     * Most of the time a seborrheic keratosis won\’t return, but it\’s possible to develop a
+        new one on another part of your body.
+
+    </string>
+    <string name="Begin_prevention_1">
+    Daily:\n\n
+        * A lotion: choose one that prevents build of dead skin cells like a glycolic 10% (alpha hydroxy),
+        beta hydroxy, or Amlactin.  There are plenty out there.
+        You may need to try several to find one you like.\n
+        * A back brush in the shower: this works to exfoliate the area. Light
+        wash cloth or loofah in the shower is helpful, too. Don\’t overscrub. Soap doesn\’t help with
+        these.
+
+
+    </string>
+    <string name="Begin_prevention_2">
+        Weekly:\n\n
+        * cups of Epsom salts in a bath: soak for 10-20 minutes. Loofah, or use
+        that wash cloth in the bath after soaking.\n
+        * Or a salt based body scrub: use it on the entire body.  Don\’t over scrub.
+
+    </string>
+    <string name="dermatofibroma_causes_1">
+
+    * Dermatofibromas are an accumulation of extra cells within the deeper layers of the skin.
+        Medical researchers do not know the exact cause of these growths.\n
+    * Some researchers theorize that a possible cause is an adverse reactionto a local trauma,
+        such as a small injury or bug bite in the area where thelesion later forms.\n
+Age may be another risk factor, as the growths appear mostly in adults.People with a
+        suppressed immune system may also be more likely to experience dermatofibromas
+        and to have more than one growth.\n
+Multiple dermatofibromas are also more common in people with underlying conditions,
+        especially in those with systemiclupus erythematosus. In some cases,
+        there may not be an obvious cause.
+
+    </string>
+    <string name="dermatofibroma_causes_2">
+
+
+    * Age may be another risk factor, as the growths appear mostly in adults.People with a
+        suppressed immune system may also be more likely to experience dermatofibromas
+        and to have more than one growth.\n
+    * Multiple dermatofibromas are also more common in people with underlying conditions,
+        especially in those with systemiclupus erythematosus. In some cases,
+        there may not be an obvious cause.
+
+    </string>
+    <string name="dermatofibroma_symptoms_1">
+Key markers of a dermatofibroma are:\n\n
+    * Appearance: A dermatofibroma presents as a round bump that is mostly under the skin.\n
+    * Size: The normal range is about 0.5–1.5 centimeters (cm) , with most lesions being 0.7–1.0 cm in
+     diameter: The size will usually remain stable.\n
+    * Location: Dermatofibromas are most common on the legs, but theysometimes
+        appear on the arms, trunk, and, less commonly,elsewhere on the body.\n
+    * Additional symptoms: Although they are usually harmless and painless, these growths
+        may occasionally be itchy, tender, painful, or inflamed.
+
+    </string>
+    <string name="dermatofibroma_symptoms_2">
+
+   * If a person pinches a dermatofibroma, it will not push toward the surfaceof the skin.
+        Instead, it will dimple inward on itself. This characteristic can help people
+        distinguish between a dermatofibroma and another type of growth.\n
+    * It is common for only one growth to appear on the body, but multiple dermatofibromas
+        may occur in people with underlying health conditionsor a weakened immune system.\n
+    * Skin growths can be alarming, but dermatofibromas are generallyharmless.\n
+    * However, if a person has a growth that looks like a dermatofibroma but is rapidly growing or
+        changing, they should seek medical advice. This growth may be a sign of a rare type of
+        cancer called dermatofibrosarcoma protuberans.
+    </string>
+
+    <string name="dermatofibroma_treatment_1">
+Most dermatofibromas do not require treatment. A person can safely leave them alone,
+        and they will usually cause no symptoms aside from their appearance on the skin.
+
+    </string>
+    <string name="dermatofibroma_treatment_2"> Dermatofibroma removal     </string>
+    <string name="dermatofibroma_treatment_2_1">
+
+        * Removal is typically the simplest and most successful option, but it requires a
+        surgical procedure. People may request this treatment if theyhave a growth that
+        is unsightly or in an embarrassing place. However, the surgery may leave noticeable
+        scar tissue after the area heals.\n
+        * For this reason, doctors do not generally advise removal
+        unless the growth is painful.
+        * Dermatofibromas comprise a mixture of tissues, including blood vessels,
+        fibroblasts, and macrophages. The growths run into the dermis, which is the middle
+        layer of the skin. In rare cases, the growths can extend to the subcutis, which is deeper.
+        These types of growths may be harder to remove surgically.
+
+    </string>
+
+    <string name="dermatofibroma_treatment_3">     Other treatment methods </string>
+
+    <string name="dermatofibroma_treatment_3_1">
+
+
+    * freezing the growth with liquid nitrogen,injecting it with corticosteroids,
+        or using laser procedures.\n
+    * However, these methods may not be effective.\n
+    * There are currently no known methods of permanently changing the sizeof a dermatofibroma.
+        Occasionally, a growth may shrink or disappear on its own, but this is rare.\n
+    A person should not try to remove these growths at home. Improperremoval can lead to
+        deep scarring, infection, and improper healing.
+
+    </string>
+
+
+    <string name="dermatofibroma_diagnosis_1">
+        Primary care doctors and dermatologists will usually diagnose a dermatofibroma by inspecting
+        it visually. \n The papules are easy to identify,but doctors will also want
+        to be certain that they do not misdiagnose the growth. \n
+
+
+:
+
+    </string>
+
+    <string name="dermatofibroma_diagnosis_2">
+    In addition to asking a person questions about their symptoms and examining the area,
+        a doctor is likely to perform the following : \n\n
+        * Pinch test: The doctor may pinch the surrounding skin to check for
+        the characteristic dimple.
+    </string>
+    <string name="dermatofibroma_diagnosis_3">
+    * Dermatoscope: The doctor may use this device to take a magnified
+        look at the surface of the growth. Dermatofibromas will usually have
+        a central white area in the middle with a pigmented area surrounding it.\n\n
+    * Biopsy: If the growth is bleeding, abnormally shaped, or irritated, or it has a
+        sore on top of it, doctors may want to do a biopsy. This procedure involves
+        taking a small bit of the tissue from the papule to examine under a microscope
+        in a laboratory.\n
+    </string>
+
+    <string name="vascular_overview_1">
+    Vascular lesions are relatively common abnormalities of the skin and underlying
+    tissues, more commonly known as birthmarks. There are three major categories of
+    vascular lesions: Hemangiomas, Vascular Malformations, and Pyogenic
+    Granulomas. While these birthmarks can look similar at times, they each vary in
+    terms of origin and necessary treatment.
+    </string>
+    <string name="vascular_overview_2_1">     Hemangiomas      </string>
+    <string name="vascular_overview_2_2">
+
+    Hemangiomas are the most common type of vascular lesion in children They are
+    benign, or noncancerous, tumors of the cells that line blood vessels. \n They usually
+    appear at or shortly after birth as faint areas of pinkish-red discoloration of the skin
+    and then quickly undergo a period of rapid growth.\n
+    </string>
+    <string name="vascular_overview_3_1">     Vascular Malformations      </string>
+    <string name="vascular_overview_3_2">
+
+   Vascular malformations represent a group of congenital errors in the formation of
+vessels.\n They are classified based on the type of vessel(s) that comprise the lesion
+and the speed of blood flow occurring within them. There are four types of Vascular
+Malformations: \n\n
+    * Capillary Malformations.\n
+    * Venous Malformations.\n
+    * Lymphatic Malformations.\n
+    * Arteriovenous (or arterial) Malformations.\n\n
+Each type has its own distinct characteristics and prognosis, which affects the
+treatment plan required.\n
+    </string>
+
+    <string name="vascular_overview_4_1">     Capillary Malformations     </string>
+    <string name="vascular_overview_4_2">
+    Also known as port wine stains, capillary malformations (CM) are comprised of
+    irregular capillaries and small veins running through the deeper layers of the skin.\n
+    These low flow lesions appear at birth as flat pink areas of skin discoloration and
+    usually darken over time to become a deep purple color. They can eventually
+    develop changes in skin texture with a cobble-stone effect and can also be
+    associated with overgrowth of the underlying bone and soft tissues.\n
+
+    </string>
+    <string name="vascular_prevention_1">
+    * Avoid having tanned skin – Avoid sun in the middle of the day, use sunscreen
+        with a high SPF, and wear sun-protective clothing
+        (eg, a hat and tightly woven clothing).\n\n
+    * Use numbing cream for 30–90 minutes before the procedure, if recommended.
+ </string>
+    <string name="vascular_prevention_2">
+   * Avoid medications and supplements that make bruising more likely
+        (only if stopping any of the below medications has been discussed with your doctor):\n\n
+    \t * Aspirin.\n
+    \t * Ibuprofen.\n
+    \t * Vitamin E.\n
+    \t * Gingko and ginseng.\n
+    \t * Fish oil supplements.\n
+    \t * Prescription blood-thinning medications (eg, warfarin or heparin).\n
+ </string>
+
+    <string name="vascular_tretment_1">
+       * They are best treated with serial laser treatments using a pulse-dye laser,
+        which targets the hemoglobin molecules found in the lesions.\n
+        This helps shut down the irregular vessels and fade the lesions.\n
+        Laser therapy is most effective in treating lesions when they are lighter in color. \n
+        Multiple laser treatments under anesthesia are usually initiated in childhood.
+
+ </string>
+    <string name="vascular_tretment_2">
+
+     * Medication: Patients may be placed on medications such as oral corticosteroids
+like prednisone or an oral blood pressure medication called propranolol, in order
+to help slow the rapid growth phase and promote involution. These medications
+can be effective, but have some side effects that make careful patient selection and
+monitoring important.
+ </string>
+    <string name="vascular_tretment_3">
+    * Laser treatment is usually the best option for vascular lesions of the face.\n
+        On the legs, injection of a medication to destroy the blood vessel (sclerotherapy)
+        can be a better option for spider veins.\n
+        Deeper veins may need treatment with surgery or very small lasers that are
+        inserted into larger blood vessels.
+
+</string>
 </resources>

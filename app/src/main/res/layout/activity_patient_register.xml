@@ -30,9 +30,8 @@
                     android:layout_marginStart="10dp"
                     android:fontFamily="sans-serif-black"
                     android:text="Here’s\nyour first\nstep with \nus! "
-                    android:textColor="@color/black"
-                    android:textSize="22sp"
-                    />
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="22sp" />
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
@@ -225,7 +224,7 @@
                        android:layout_gravity="center_horizontal"
                        android:layout_marginTop="20dp"
                        android:text="Register"
-                       android:textColor="@color/white"
+                       android:textColor="@color/whiteTextColor"
                        android:textSize="20sp"
                      android:background="@drawable/button_background"
                        />

@@ -188,6 +188,7 @@ public class DoctorRegister extends AppCompatActivity {
         hashMap.put("university", university);
         hashMap.put("certificates", certificates);
         hashMap.put("profileImage", "");
+        hashMap.put("about", " ");
         hashMap.put("userType", "Doctor");
         hashMap.put("timestamp", timestamp);
 

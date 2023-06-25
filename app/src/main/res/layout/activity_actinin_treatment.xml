@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".nada.Actinin_treatment_Activity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Actinin_treatment_toolbar"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+
+        />
+
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="10dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/white"
+                >
+                <LinearLayout
+
+                    android:padding="10dp"
+                    android:background="@drawable/main_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txt_1"
+
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/actinin_treatment_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="10dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/white"
+                >
+                <LinearLayout
+
+                    android:padding="10dp"
+                    android:background="@drawable/main_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txt_2"
+
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/actinin_treatment_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="10dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/white"
+                >
+                <LinearLayout
+
+                    android:padding="10dp"
+                    android:background="@drawable/main_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txt_3"
+
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/actinin_symptoms_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="10dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/white"
+                >
+                <LinearLayout
+
+                    android:padding="10dp"
+                    android:background="@drawable/main_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txt_4"
+
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/actinin_treatment_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="10dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/white"
+                >
+                <LinearLayout
+
+                    android:padding="10dp"
+                    android:background="@drawable/main_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txt_5"
+
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/actinin_treatment_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>

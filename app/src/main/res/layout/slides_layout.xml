@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/diagnosis" />
+        android:src="@drawable/diagnosis01" />
 
     <TextView
         android:id="@+id/slider_tv_heading"

@@ -17,5 +17,10 @@
     <color name="primaryTextColor">#11CFC5</color>
     <color name="gray01">#c5c5c5</color>
     <color name="gray02">#777777</color>
+    <color name="gray03">#EDEDED</color>
+    <color name="gray04">#FBFBFB</color>
+    <color name="transparent">#00000000 </color>
+    <color name="button">#EF518B</color>
+    <color name="Red">#F53B3B</color>
 
 </resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@color/colorAccent"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="0dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profileIv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_person_gray"
+            app:shapeAppearance="@style/styleCircleImage" />
+
+        <TextView
+            android:id="@+id/dr_Te"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/profileIv"
+            android:text="Dr."
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textColor="@color/whiteTextColor"
+            />
+
+        <TextView
+            android:id="@+id/titleTv"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/dr_Te"
+            android:maxLines="1"
+            android:text="Doctor Name"
+            android:textColor="@color/whiteTextColor"/>
+
+
+
+        <TextView
+            android:id="@+id/addressEt"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleTv"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/profileIv"
+            android:layout_marginStart="10dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="jfkdkdcmsksd"
+            android:textColor="@color/whiteTextColor"/>
+
+
+
+        <TextView
+            android:id="@+id/phoneEv"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addressEt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/profileIv"
+            android:ellipsize="end"
+            android:text="0000000"
+            android:textColor="@color/whiteTextColor"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

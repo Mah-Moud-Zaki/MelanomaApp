@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.final_project.MainActivity;
+import com.example.final_project.ModelAi.ModelActivity;
 import com.example.final_project.R;
 import com.example.final_project.databinding.ActivityLoginBinding;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -63,9 +64,24 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        binding.forgetTv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, ForgetPasswordActivity.class));
+            }
+        });
+
+        binding.skipBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, ModelActivity.class));
+            }
+        });
+
 
     }
     private String email="",password="";
+
     private void validateData() {
         email=binding.emailEt.getText().toString().trim();
         password=binding.passwordEt.getText().toString().trim();
